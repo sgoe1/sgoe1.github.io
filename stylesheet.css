@@ -1,0 +1,54 @@
+a {
+  text-decoration: none;
+  color: #69d2f5;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: #c6e9f4;
+}
+
+body {
+  margin: 40px auto;
+  max-width: 600px;
+  line-height: 1.5;
+  font-size: 16px;
+  color: #333;
+  padding: 0 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.intro {
+  align-content: center;
+}
+
+.bio {
+  float: "left";
+}
+
+.profile {
+  width: 95%;
+  max-width: 100%;
+  height: auto;
+  float: right;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #444;
+    color: #e4e4e4;
+  }
+  img {
+    filter: grayscale(30%);
+  }
+}
